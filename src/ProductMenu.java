@@ -66,7 +66,7 @@ public class ProductMenu {
     }
 
     private void setProductName(String productName) {
-        if(category==null || category.isEmpty()){
+        if(productName==null || productName.isEmpty()){
             throw new IllegalArgumentException("Category cannot be null or empty");
         }
         this.productName = productName;
