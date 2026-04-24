@@ -4,9 +4,9 @@ public class Main {
         ProductMenu p1 = new ProductMenu("K-01", "Espresso", 9.0, "kawa");
         ProductMenu p2 = new ProductMenu("K-02", "Cappuccino", 13.5, "kawa");
         ProductMenu p3 = new ProductMenu("D-01", "Sernik", 16.0, "deser");
-        /*
-        Client client = new Client(100, "Julia", "Mazur", "j.mazur@mail.pl");
 
+        Client client = new Client(100, "Julia", "Mazur", "j.mazur@mail.pl");
+        /*
         Order order = new Order(client);
         Order.addProduct(p1);
         Order.addProduct(p2);
